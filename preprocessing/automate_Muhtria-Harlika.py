@@ -43,6 +43,6 @@ def preprocess_data(input_path: str, output_dir: str):
 
 if __name__ == "__main__":
     preprocess_data(
-        input_path="namadataset_raw/world_happiness_combined.csv",
-        output_dir="namadataset_preprocessing"
+        input_path="worldhappiness_raw/world_happiness_combined.csv",
+        output_dir="worldhappiness_preprocessing"
     )
